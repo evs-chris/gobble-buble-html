@@ -1,0 +1,16 @@
+{
+  "name": "gobble-buble-html",
+  "description": "Convert javascript tags in HTML files from ES2015 -> ES5 using Buble.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [ "gobble", "buble", "html" ],
+  "author": "Chris Reeves",
+  "repository": "https://github.com/evs-chris/gobble-buble-html",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "buble": "^0.4"
+  }
+}
