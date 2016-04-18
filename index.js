@@ -2,7 +2,7 @@ var transform = require('buble').transform;
 
 module.exports = bubleHTML;
 
-var scripts = /<\s*script[^>]*>(([^](?!<\/script>))*.)/gi;
+var scripts = /<\s*script(?:[^>](?!src=))*>(([^](?!<\/script>))*.)/gi;
 var type = /<\s*script[^>]*type=["']([^'" ]+)["'][^>]*>/i;
 
 function bubleHTML( code, options ) {
